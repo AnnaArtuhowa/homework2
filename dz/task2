@@ -1,0 +1,14 @@
+def calculate_expression(n):
+    n_str = str(n)
+    
+    nn = int(n_str * 2)
+    nnn = int(n_str * 3)
+    
+    result = n + nn + nnn
+    
+    return result
+
+n = int(input("Введіть ціле число n: "))
+
+result = calculate_expression(n)
+print("Результат виразу n + nn + nnn:", result)
